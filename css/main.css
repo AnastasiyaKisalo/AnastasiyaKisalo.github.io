@@ -1,0 +1,2346 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/BG-Top.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+}
+
+.logo {
+    background: url(../img/logo.png);
+    height: 24px;
+    width: 184px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 25px;
+    position: relative;
+}
+
+.nav-lists li a {
+    color: #fff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 0;
+}
+
+.active-link {
+    border-bottom: #68e9fa solid 3px;
+}
+
+.nav-lists li {
+    padding: 0 20px;
+}
+
+.main_title {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Arvo-Regular";
+    padding-top: 65px;
+}
+
+.main_title span {
+    color: #68e9fa;
+}
+
+.small_title {
+    text-align: center;
+    font-family: "Arvo-Regular";
+    font-size: 24px;
+    color: #68e9fa;
+    padding-top: 13px;
+}
+
+.hide-nav {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hide-nav_line {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.hide-nav_line--top {
+    top: 8px;
+    margin-left: 3px;
+    transition: 1s;
+}
+
+.hide-nav_line--middle {
+    top: 18px;
+    opacity: 1;
+    margin-left: 3px;
+    transition: 1s;
+}
+
+.hide-nav_line--bottom {
+    top: 28px;
+    margin-left: 3px;
+    transition: 1s;
+}
+
+.hide-nav.active .hide-nav_line--top {
+    top: 20px;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.hide-nav.active .hide-nav_line--middle {
+    opacity: 0;
+    transition: 1s;
+}
+
+.hide-nav.active .hide-nav_line--bottom {
+    top: 20px;
+    transform: rotate(-45deg);
+    transition: 1s;
+}
+
+
+
+
+
+
+/* Section About us */
+
+#about_us {
+    height: 673px;
+    overflow: hidden;
+}
+
+.img-people {
+    position: relative;
+    height: 500px;
+    z-index: 10;
+}
+
+.people {
+    z-index: 20;
+    position: relative;
+    bottom: 409px;
+}
+
+.people_back {
+    display: table;
+    position: absolute;
+    top: 122px;
+}
+
+.people_front {
+    display: table;
+    position: absolute;
+    left: 400px;
+    top: 135px;
+}
+
+.people_design {
+    display: table;
+    position: absolute;
+    right: 10px;
+    top: 112px;
+}
+
+#window {
+    position: absolute;
+    bottom: 170px;
+    z-index: 1;
+}
+
+#lamp {
+    position: absolute;
+    bottom: 0;
+    left: 290px;
+    z-index: 1;
+}
+
+#city {
+    position: absolute;
+    bottom: 0;
+    right: 185px;
+    z-index: 1;
+}
+
+#left-persona {
+    position: relative;
+    z-index: 10;
+}
+
+#center-persona {
+    position: relative;
+    z-index: 10;
+}
+
+#right-persona {
+    position: relative;
+    z-index: 10;
+}
+
+#sql {
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    
+}
+
+
+#java {
+    position: absolute;
+    top: -100px;
+    left: 110px;
+   
+}
+
+
+#php {
+    position: absolute;
+    top: -20px;
+    left: 200px;
+    
+}
+
+#weblogo {
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    
+}
+
+#xlogo {
+    position: absolute;
+    top: -100px;
+    left: 125px;
+    
+}
+
+#andlogo {
+    position: absolute;
+    top: -30px;
+    left: 205px;
+    
+}
+
+#backend,
+#frontend,
+#design {
+    font-family: Arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #53d3ec;
+    opacity: 0;
+}
+
+#backend {
+    position: absolute;
+    left: 215px;
+    top: 80px;
+}
+
+#frontend {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+#design {
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+
+#ps {
+    position: absolute;
+    left: 160px;
+    top: -5px;
+
+}
+
+#ai {
+    position: absolute;
+    left: 245px;
+    top: -70px;
+   
+}
+
+#ae {
+    position: absolute;
+    left: 340px;
+    top: -5px;
+    
+}
+.people_back:hover .icons #backend {
+    opacity: 1;
+}
+.people_front:hover .icons #frontend {
+    opacity: 1;
+}
+.people_design:hover .icons #design {
+    opacity: 1;
+}
+
+.fun {
+    opacity: 0;
+}
+
+.clear-left {
+    height: 400px;
+    bottom: -10px;
+    left: 200px;
+    position: relative;
+    z-index: 999;
+    width: 200px;
+}
+
+.clear-right {
+    width: 250px;
+    height: 400px;
+    position: relative;
+    z-index: 999;
+    right: 240px;
+    bottom: 390px;
+    float: right;
+}
+/*
+.clear-up {
+    position: relative;
+    height: 175px;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.people_back:hover .icons #sql {
+    animation-name: sql;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+
+
+.people_back:hover .icons #php {
+    animation-name: php;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_back:hover .icons #java {
+    animation-name: java;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_front:hover .icons #weblogo {
+    animation-name: weblogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+
+.people_front:hover .icons #xlogo {
+    animation-name: xlogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_front:hover .icons #andlogo {
+    animation-name: andlogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_design:hover .icons #ps {
+    animation-name: ps;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_design:hover .icons #ai {
+    animation-name: ai;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+.people_design:hover .icons #ae {
+    animation-name: ae;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+*/
+
+
+
+
+/* Section Services */
+
+#servis {
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+#servic-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #018ca3;
+    font-size: 24px;
+    font-family: "Arvo-Regular";
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.servis-left {
+    width: 50%;
+    margin-top: 80px;
+}
+
+.servis-right {
+    width: 50%;
+    margin-top: 80px;
+}
+
+.servis-left img {
+    padding-left: 35px;
+}
+
+#web h3,
+#ios h3,
+#android h3 {
+    font-size: 24px;
+    font-family: "HelveticaNeue";
+    position: absolute;
+    left: 145px;
+}
+
+#web h3 {
+    top: 180px;
+}
+
+#ios h3 {
+    top: 340px;
+}
+
+#android h3 {
+    bottom: 110px;
+}
+
+#web h3 span,
+#ios h3 span,
+#android h3 span {
+    color: #018ca3;
+}
+
+#web p,
+#ios p,
+#android p {
+    font-size: 14px;
+    font-family: "HelveticaNeue";
+    width: 20%;
+    position: relative;
+    left: 110px;
+    top: -50px;
+}
+
+#web {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+#ios {
+    margin-left: 20px;
+}
+
+#android {
+    margin-left: 20px;
+}
+
+#Mac {
+    position: absolute;
+    bottom: 240px;
+    right: 40px;
+}
+
+#iPad {
+    position: absolute;
+    right: 315px;
+    bottom: 250px;
+}
+
+#iPhone {
+    position: absolute;
+    right: 220px;
+    bottom: 50px;
+}
+
+#iWatch {
+    position: absolute;
+    right: 360px;
+    bottom: 140px;
+}
+
+
+
+
+
+
+/*Section Projects*/
+
+.col-lg-4 a img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+#project-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #018ca3;
+    font-size: 24px;
+    font-family: "Arvo-Regular";
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+
+.animated {
+    animation-duration: 2s !important;
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+    background: url(../img/BG-bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+#f-title {
+    width: 248px;
+    height: 25px;
+    font-family: "Arvo-Regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#f-title span {
+    color: #037183;
+}
+
+.f-block {
+    margin-top: 65px;
+}
+
+.company {
+    color: white;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.company li a {
+    color: white;
+}
+
+.social {
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+}
+
+.title-link {
+    font-size: 18px;
+    text-align: center;
+}
+
+.social .title-link {
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+
+#fb img {
+    max-width: 100%;
+    width: 38px;
+    height: 100%;
+}
+
+
+#twit img {
+    max-width: 100%;
+    width: 38px;
+    height: 100%;
+}
+
+#dribbble img {
+    max-width: 100%;
+    width: 38px;
+    height: 100%;
+}
+
+.social li:nth-child(2) {
+    display: inline;
+    padding-left: 20px;
+}
+
+.social li:nth-child(3) {
+    display: inline;
+    padding-left: 20px;
+}
+
+.social li:nth-child(4) {
+    display: inline;
+    padding-left: 20px;
+}
+
+#copy {
+    color: white;
+    font-family: "HelveticaNeue";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact {
+    color: white;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.contact li:nth-child(2) {
+    margin-left: 110px;
+}
+
+.contact li:nth-child(3) {
+    margin-left: 110px;
+}
+
+.contact li:nth-child(4) {
+    margin-left: 110px;
+}
+
+.boxHidded {
+    visibility: hidden;
+}
+
+.fadeInUp,
+.fadeOutDown {
+    visibility: visible;
+    /*  Делаем иконки полностью не прозрачными  */
+}
+.box, .box2 {
+    transform: scale(0.3);
+    transition: all ease 1.5s;
+}
+.box1, .box3 {
+    transform: scale(0.2);
+    opacity: 0;
+    transition: all ease 1.5s;
+}
+.scaleCustomUp {
+    transform: scale(1);
+    transition: all ease 1.5s;
+}
+.scaleCustomDown {
+    transform: scale(0.3);
+    transition: all ease 1.5s;
+}
+.boxViseble {
+    transform: scale(1);
+    transition: all ease 1.2s;
+    opacity: 1;
+}
+.boxHidden {
+    transform: scale(0.2);
+    transition: all ease 1.2s;
+    opacity: 0;
+}
+
+
+/* animated */
+
+
+
+@keyframes zoom {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.sql-r {
+    animation-name: sql-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+.sql {
+    animation-name: sql;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+@keyframes sql-r {
+    from {
+        top: -20px;
+        left: 25px;
+        opacity: 1;
+    }
+    to {
+        top: 30px;
+        left: 109px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes sql {
+    from {
+        top: 30px;
+        left: 109px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -20px;
+        left: 25px;
+        opacity: 1;
+    }
+}
+
+.java {
+    animation-name: java;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.java-r {
+    animation-name: java-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+@keyframes java {
+    from {
+        top: -10px;
+        left: 110px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -100px;
+        left: 110px;
+        opacity: 1;
+    }
+}
+@keyframes java-r {
+    from {
+        top: -100px;
+        left: 110px;
+        opacity: 1;
+    }
+    to {
+        top: -10px;
+        left: 110px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+.php {
+    animation-name: php;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.php-r {
+    animation-name: php-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+@keyframes php {
+    from {
+        top: 35px;
+        left: 105px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -20px;
+        left: 200px;
+        opacity: 1;
+    }
+}
+@keyframes php-r {
+    from {
+        top: -20px;
+        left: 200px;
+        opacity: 1;
+    }
+    to {
+        top: 35px;
+        left: 105px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+.weblogo {
+    animation-name: weblogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.weblogo-r {
+    animation-name: weblogo-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+@keyframes weblogo {
+    from {
+        top: 0px;
+        left: 133px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -30px;
+        left: 40px;
+        opacity: 1;
+    }
+}
+@keyframes weblogo-r {
+    from {
+        top: -30px;
+        left: 40px;
+        opacity: 1;
+    }
+    to {
+        top: 0px;
+        left: 133px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+.xlogo {
+    animation-name: xlogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.xlogo-r {
+    animation-name: xlogo-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+@keyframes xlogo {
+    from {
+        top: 10px;
+        left: 125px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -100px;
+        left: 125px;
+        opacity: 1;
+    }
+}
+@keyframes xlogo-r {
+    from {
+        top: -100px;
+        left: 125px;
+        opacity: 1;
+    }
+    to {
+        top: 10px;
+        left: 125px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+.andlogo {
+    animation-name: andlogo;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.andlogo-r {
+    animation-name: andlogo-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+@keyframes andlogo {
+    from {
+         top: 20px;
+        left: 140px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -30px;
+        left: 205px;
+        opacity: 1;
+    }
+}
+@keyframes andlogo-r {
+    from {
+        top: -30px;
+        left: 205px;
+        opacity: 1; 
+    }
+    to {
+        top: 20px;
+        left: 140px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+.ps {
+    animation-name: ps;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.ps-r {
+    animation-name: ps-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+@keyframes ps {
+    from {
+        left: 260px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 160px;
+        top: -5px;
+        opacity: 1;
+    }
+}
+@keyframes ps-r {
+    from {
+        left: 160px;
+        top: -5px;
+        opacity: 1;
+    }
+    to {
+        left: 260px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+.ai {
+    animation-name: ai;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.ai-r {
+    animation-name: ai-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+@keyframes ai {
+    from {
+        left: 255px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 245px;
+        top: -70px;
+        opacity: 1;
+    }
+}
+@keyframes ai-r {
+    from {
+        left: 245px;
+        top: -70px;
+        opacity: 1;
+    }
+    to {
+        left: 255px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+.ae {
+    animation-name: ae;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+.ae-r {
+    animation-name: ae-r;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+@keyframes ae {
+    from {
+        left: 270px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 340px;
+        top: -5px;
+        opacity: 1;
+    }
+}
+@keyframes ae-r {
+    from {
+        left: 340px;
+        top: -5px;
+        opacity: 1;
+    }
+    to {
+        left: 270px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+@keyframes sql_m {
+    from {
+        top: 30px;
+        left: 109px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: 0px;
+        left: 5px;
+        opacity: 1;
+    }
+}
+@keyframes sql_mr {
+    from {
+        top: 0px;
+        left: 5px;
+        opacity: 1;
+    }
+    to {
+        top: 30px;
+        left: 109px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes java_m {
+    from {
+        top: -10px;
+        left: 110px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -80px;
+        left: 90px;
+        opacity: 1;
+    }
+}
+@keyframes java_mr {
+    from {
+        top: -80px;
+        left: 90px;
+        opacity: 1;
+    }
+    to {
+        top: -10px;
+        left: 110px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+        
+    }
+}
+
+@keyframes php_m {
+    from {
+        top: 35px;
+        left: 105px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: 0px;
+        left: 165px;
+        opacity: 1;
+    }
+}
+@keyframes php_mr {
+    from {
+        top: 0px;
+        left: 165px;
+        opacity: 1;
+    }
+    to {
+        top: 35px;
+        left: 105px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+        
+    }
+}
+
+@keyframes weblogo_m {
+    from {
+        top: 0px;
+        left: 95px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -12px;
+        left: 25px;
+        opacity: 1;
+    }
+}
+@keyframes weblogo_mr {
+    from {
+        
+        top: -12px;
+        left: 25px;
+        opacity: 1;
+    }
+    to {
+        top: 0px;
+        left: 95px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes xlogo_m {
+    from {
+        top: 10px;
+        left: 100px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -80px;
+        left: 100px;
+        opacity: 1;
+    }
+}
+@keyframes xlogo_mr {
+    from {
+        top: -80px;
+        left: 100px;
+        opacity: 1;
+    }
+    to {
+       
+        top: 10px;
+        left: 100px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes andlogo_m {
+    from {
+         top: 20px;
+        left: 100px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -15px;
+        left: 165px;
+        opacity: 1;
+    }
+}
+@keyframes andlogo_mr {
+    from {
+        top: -15px;
+        left: 165px;
+        opacity: 1;
+    }
+    to {
+        top: 20px;
+        left: 100px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+        
+    }
+}
+@keyframes ps_m {
+    from {
+        left: 200px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 135px;
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes ps_mr {
+    from {
+        left: 135px;
+        top: 0px;
+        opacity: 1;
+    }
+    to {
+        
+        left: 200px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+@keyframes ai_m {
+    from {
+        left: 205px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 205px;
+        top: -60px;
+        opacity: 1;
+    }
+}
+@keyframes ai_mr {
+    from {
+         left: 205px;
+        top: -60px;
+        opacity: 1;
+    }
+    to {
+        left: 205px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+       
+    }
+}
+@keyframes ae_m {
+    from {
+        left: 205px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 270px;
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes ae_mr {
+    from {
+        left: 270px;
+        top: 0px;
+        opacity: 1;
+    }
+    to {
+        
+        left: 205px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes sql_s {
+    from {
+        top: 0px;
+        left: 62px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -30px;
+        left: 10px;
+        opacity: 1;
+    }
+}
+@keyframes sql_sr {
+    from {
+         top: -30px;
+        left: 10px;
+        opacity: 1;
+    }
+    to {
+       
+        top: 0px;
+        left: 62px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes java_s {
+    from {
+            top: 0px;
+    left: 65px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+            top: -80px;
+    left: 70px;
+        opacity: 1;
+    }
+}
+@keyframes java_sr {
+    from {
+         top: -80px;
+    left: 70px;
+        opacity: 1;
+    }
+    to {
+            top: 0px;
+    left: 65px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+           
+    }
+}
+
+@keyframes php_s {
+    from {
+        left: 65px;
+    top: 0px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 130px;
+    top: -35px;
+        opacity: 1;
+    }
+}
+@keyframes php_sr {
+    from {
+         left: 130px;
+    top: -35px;
+        opacity: 1;
+    }
+    to {
+       
+        left: 65px;
+        top: 0px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+
+@keyframes weblogo_s {
+    from {
+       top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -35px;
+    left: 25px;
+        opacity: 1;
+    }
+}
+@keyframes weblogo_sr {
+    from {
+         top: -35px;
+    left: 25px;
+        opacity: 1;
+    }
+    to {
+        top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes xlogo_s {
+    from {
+         top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -80px;
+    left: 90px;
+        opacity: 1;
+    }
+}
+@keyframes xlogo_sr {
+    from {
+         top: -80px;
+    left: 90px;
+        opacity: 1;
+    }
+    to {
+        top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+@keyframes andlogo_s {
+    from {
+        top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        top: -30px;
+    left: 140px;
+        opacity: 1;
+    }
+}
+@keyframes andlogo_sr {
+    from {
+         top: -30px;
+    left: 140px;
+        opacity: 1;
+    }
+    to {
+        top: 10px;
+    left: 75px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+        
+    }
+}
+@keyframes ps_s {
+    from {
+        left: 150px;
+    top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 95px;
+    top: -25px;
+        opacity: 1;
+    }
+}
+@keyframes ps_sr {
+    from {
+         left: 95px;
+    top: -25px;
+        opacity: 1;
+    }
+    to {
+        left: 150px;
+    top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+       
+    }
+}
+@keyframes ai_s {
+    from {
+        left: 150px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+            left: 150px;
+    top: -70px;
+        opacity: 1;
+    }
+}
+@keyframes ai_sr {
+    from {
+        left: 150px;
+    top: -70px;
+        opacity: 1;
+    }
+    to {
+        left: 150px;
+        top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+            
+    }
+}
+@keyframes ae_s {
+    from {
+            left: 150px;
+    top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    to {
+        left: 207px;
+    top: -27px;
+        opacity: 1;
+    }
+}
+@keyframes ae_sr {
+    from {
+        left: 207px;
+    top: -27px;
+        opacity: 1;
+    }
+    to {
+            left: 150px;
+    top: 10px;
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+        
+    }
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: "Arvo-Regular";
+    src: url("../fonts/Arvo-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 800px) {
+    .nav-list {
+        display: none;
+        position: relative;
+        z-index: 10000;
+    }
+
+    .nav-list li {
+        padding-top: 5px;
+    }
+
+    .nav-list li a {
+        color: #fff;
+        font-family: Arial;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .logo {
+        left: 100px;
+        width: 180px;
+        top: 32px;
+    }
+
+    .nav-list li {
+        display: block;
+    }
+    .nav-lists {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hide-nav {
+        display: none;
+    }
+
+    .nav-list {
+        display: none;
+        position: relative;
+        z-index: 10000;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    body {
+        background-position-y: 0;
+        background-size: 120%;
+    }
+}
+
+
+
+@media (max-width: 1199px) {
+    #about_us {
+        height: 605px;
+    }
+
+    #f-title {
+        line-height: 20px;
+    }
+    .f-block {
+        margin-top: 45px;
+    }
+    .contact {
+        line-height: 30px;
+    }
+    .company {
+        line-height: 30px;
+    }
+    .contact li:nth-child(3) {
+        margin-left: 80px;
+    }
+    .contact li:nth-child(2) {
+        margin-left: 80px;
+    }
+    .contact li:nth-child(4) {
+        margin-left: 80px;
+    }
+    #window {
+        bottom: 240px;
+        width: 15%;
+    }
+    #lamp {
+        bottom: 65px;
+        width: 10%;
+    }
+    #city {
+        bottom: 67px;
+        right: 150px;
+        width: 30%;
+    }
+    #left-persona {
+        width: 77%;
+    }
+    #center-persona {
+        width: 74%;
+    }
+    #right-persona {
+        width: 78%;
+    }
+    .people_back {
+        left: 60px;
+    }
+    .people_front {
+        left: 375px;
+    }
+    .people_design {
+        right: -70px;
+    }
+    #php,
+    #sql,
+    #ae,
+    #ps,
+    #ai,
+    #java {
+        width: 12%;
+    }
+    #weblogo,
+    #xlogo,
+    #andlogo {
+        width: 16%;
+    }
+    
+    #ae {
+        left: 270px;
+        top: 0px;
+    }
+
+    #ai {
+        left: 205px;
+        top: -60px;
+    }
+
+    #ps {
+        left: 135px;
+        top: 0px;
+    }
+    .clear-right {
+    width: 140px;
+}
+    
+    #sql {
+        top: 0px;
+        left: 5px;
+    }
+    #java {
+        top: -80px;
+        left: 90px;
+    }
+
+    #php {
+        top: 0px;
+        left: 165px;
+    }
+
+    #weblogo {
+        top: -12px;
+        left: 25px;
+    }
+    #xlogo {
+        top: -80px;
+        left: 100px;
+    }
+
+    #andlogo {
+        top: -15px;
+        left: 165px;
+    } 
+    #design {
+        left: 68px;
+        top: 30px;
+    }
+    #backend {
+        left: 165px;
+        top: 60px;
+    }
+
+    #frontend {
+        left: -15px;
+        top: 65px;
+    }
+    .sql {
+    animation-name: sql_m;
+}
+.sql-r {
+    animation-name: sql_mr;
+}
+
+.php {
+    animation-name: php_m;
+}
+.php-r {
+    animation-name: php_mr;
+}
+
+.java {
+    animation-name: java_m;
+}
+.java-r {
+    animation-name: java_mr;
+}
+
+.weblogo {
+    animation-name: weblogo_m;
+}
+.weblogo-r {
+    animation-name: weblogo_mr;
+}
+
+.xlogo {
+    animation-name: xlogo_m;
+}
+.xlogo-r {
+    animation-name: xlogo_mr;
+}
+
+.andlogo {
+    animation-name: andlogo_m;
+    }
+    .andlogo-r {
+    animation-name: andlogo_mr;
+    }
+
+.ps {
+    animation-name: ps_m;
+}
+.ps-r {
+    animation-name: ps_mr;
+}
+
+.ai {
+    animation-name: ai_m;
+}
+.ai-r {
+    animation-name: ai_mr;
+}
+
+.ae {
+    animation-name: ae_m;
+}
+.ae-r {
+    animation-name: ae_mr;
+}
+}
+
+@media (max-width: 991px) {
+    #about_us {
+        height: 450px;
+    }
+    .img-people {
+        height: 450px;
+    }
+
+    #window {
+        bottom: 300px;
+        width: 15%;
+    }
+
+    #lamp {
+        bottom: 172px;
+        width: 10%;
+        left: 200px;
+    }
+
+    #city {
+        bottom: 174px;
+        right: 60px;
+        width: 35%;
+    }
+    .people_back {
+        top: 65px;
+        left: 30px;
+    }
+    .people_front {
+        left: 275px;
+        top: 68px;
+    }
+    .people_design {
+        right: -170px;
+        top: 58px;
+    }
+    #left-persona {
+        width: 60%;
+    }
+
+    #backend,
+    #frontend,
+    #design {
+        display: none;
+    }
+
+    #sql,
+    #java,
+    #php {
+        width: 10%;
+    }
+    #sql {
+        top: -30px;
+        left: 10px;
+    }
+    #java {
+        top: -80px;
+        left: 70px;
+    }
+
+    #php {
+        left: 130px;
+        top: -35px;
+    }
+
+    #center-persona {
+        width: 60%;
+    }
+
+    #weblogo,
+    #xlogo,
+    #andlogo {
+        width: 13%;
+    }
+
+    #weblogo {
+        top: -35px;
+        left: 25px;
+    }
+
+    #xlogo {
+        top: -80px;
+        left: 90px;
+    }
+
+    #andlogo {
+        top: -30px;
+        left: 140px;
+    }
+
+    #right-persona {
+
+        width: 60%;
+    }
+
+    #ps {
+        left: 95px;
+        top: -25px;
+        width: 10%;
+    }
+
+    #ai {
+        left: 150px;
+        top: -70px;
+        width: 10%;
+    }
+    #ae {
+        left: 207px;
+        top: -27px;
+        width: 10%;
+    }
+    .clear-left {
+    left: 145px;
+    width: 150px;
+}
+.clear-right {
+    right: 130px;
+}
+
+    #web h3,
+    #ios h3,
+    #android h3 {
+        font-size: 18px;
+        margin-left: -20px;
+    }
+    #iPad {
+        right: 222px;
+        bottom: 255px;
+        width: 12%;
+    }
+    #iPhone {
+        right: 120px;
+        bottom: 150px;
+        width: 9%;
+    }
+    #iWatch {
+        right: 215px;
+        bottom: 170px;
+        width: 10%;
+    }
+    #web p,
+    #ios p,
+    #android p {
+        line-height: 1.25;
+    }
+    #Mac {
+        position: absolute;
+        bottom: 280px;
+        right: 30px;
+        width: 30%;
+    }
+    #android h3 {
+        bottom: 130px;
+    }
+
+    #web,
+    #ios,
+    #android {
+        margin-left: 0;
+    }
+    #f-title {
+        line-height: 0px;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .f-block {
+        margin-top: 20px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .contact li:nth-child(3) {
+        margin-left: 42px;
+    }
+    .contact li:nth-child(2) {
+        margin-left: 42px;
+    }
+    .contact li:nth-child(4) {
+        margin-left: 42px;
+    }
+    .contact {
+        line-height: 25px;
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .zoomIn,
+    .zoomOut {
+        animation-name: none !important;
+    }
+   .sql {
+    animation-name: sql_s;
+}
+.sql-r {
+    animation-name: sql_sr;
+}
+
+.php {
+    animation-name: php_s;
+}
+.php-r {
+    animation-name: php_sr;
+}
+
+.java {
+    animation-name: java_s;
+}
+.java-r {
+    animation-name: java_sr;
+}
+
+.weblogo {
+    animation-name: weblogo_s;
+}
+.weblogo-r {
+    animation-name: weblogo_sr;
+}
+
+.xlogo {
+    animation-name: xlogo_s;
+}
+.xlogo-r {
+    animation-name: xlogo_sr;
+}
+
+.andlogo {
+    animation-name: andlogo_s;
+    }
+    .andlogo-r {
+    animation-name: andlogo_sr;
+    }
+
+.ps {
+    animation-name: ps_s;
+}
+.ps-r {
+    animation-name: ps_sr;
+}
+
+.ai {
+    animation-name: ai_s;
+}
+.ai-r {
+    animation-name: ai_sr;
+}
+
+.ae {
+    animation-name: ae_s;
+}
+.ae-r {
+    animation-name: ae_sr;
+}
+}
+
+@media (max-width: 767px) {
+
+    #about_us {
+        height: 355px;
+    }
+    .img-people {
+        height: 400px;
+    }
+
+    #sql,
+    #java,
+    #php,
+    #weblogo,
+    #xlogo,
+    #andlogo,
+    #ps,
+    #ai,
+    #ae {
+        display: none;
+    }
+    #left-persona {
+        width: 44%;
+    }
+
+    #center-persona {
+        width: 43%;
+    }
+
+    .people_front {
+        left: 210px;
+        top: 71px;
+    }
+
+    #right-persona {
+        width: 45%;
+    }
+    .people_design {
+        right: -238px;
+    }
+    #Mac,
+    #iPad,
+    #iPhone,
+    #iWatch {
+        display: none;
+    }
+    #web {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #web h3 {
+        top: 95px;
+    }
+    #ios h3 {
+        top: 220px;
+    }
+    #android h3 {
+        bottom: 85px;
+    }
+    #web p,
+    #ios p,
+    #android p {
+        width: 70%;
+    }
+    .title-link {
+        display: none;
+    }
+
+    #copy {
+        top: 0px;
+    }
+    .social {
+        padding: 0;
+        display: table;
+        margin: 0 auto;
+    }
+    .social li:nth-child(2),
+    .social li:nth-child(3),
+    .social li:nth-child(4) {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .contact {
+        padding: 0;
+        text-align: center;
+    }
+    .contact li:nth-child(3) {
+        margin-left: 0px;
+    }
+    .contact li:nth-child(2) {
+        margin-left: 0px;
+    }
+    .contact li:nth-child(4) {
+        margin-left: 0px;
+    }
+
+    .contact li:nth-child(3) {
+        margin-left: 0px;
+    }
+    .contact li:nth-child(2) {
+        margin-left: 0px;
+    }
+    .contact li:nth-child(4) {
+        margin-left: 0px;
+    }
+
+    #left-persona,
+    #right-persona,
+    #center-persona {
+        width: 40%;
+    }
+    .people_back {
+        top: 77px;
+    }
+    .people_front {
+        top: 79px;
+        left: 195px;
+    }
+    .people_design {
+        top: 73px;
+    }
+
+    #f-title {
+        display: none;
+    }
+    .social {
+        padding: 0;
+        display: table;
+        margin: 0 auto;
+    }
+    footer {
+        background: url(../img/BG-bottom.png);
+        margin-top: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 540px) {
+    #left-persona,
+    #right-persona,
+    #center-persona {
+        width: 33%;
+    }
+    .people_back {
+        top: 98px;
+    }
+    .people_front {
+        top: 99px;
+    }
+    .people_design {
+        top: 94px;
+        right: -265px;
+    }
+}
+
+@media (max-width: 504px) {
+    body {
+        background-size: 200%
+    }
+    #lamp,
+    #window,
+    #city,
+    #left-persona,
+    #center-persona,
+    #right-persona {
+        display: none;
+    }
+    #servic-title {
+        padding-top: 20px;
+    }
+    #web img {
+        width: 15%;
+    }
+    #ios img {
+        width: 15%;
+    }
+    #android img {
+        width: 15%;
+    }
+    #web,
+    #ios,
+    #android {
+        margin-left: 0px;
+    }
+    #web h3 {
+        top: 60px;
+    }
+    #ios h3 {
+        top: 160px;
+    }
+    #android h3 {
+        bottom: 65px;
+    }
+    #web p,
+    #ios p,
+    #android p {
+        font-size: 12px;
+        left: 100px;
+        top: -30px;
+    }
+    #web h3,
+    #ios h3,
+    #android h3 {
+        font-size: 16px;
+        margin-left: -28px;
+    }
+    .social {
+        left: 27%;
+    }
+}
+
+@media (max-width: 450px) {
+    #web p,
+    #ios p,
+    #android p {
+        width: 65%;
+    }
+    #android h3 {
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    #android h3 {
+        bottom: 90px;
+    }
+    #ios h3 {
+        top: 150px;
+    }
+    #web h3 {
+        top: 55px;
+    }
+    .social {
+        left: 18%;
+    }
+}
+
+@media (max-width: 386px) {
+    #ios h3 {
+        top: 155px;
+    }
+    #android h3 {
+        bottom: 70px;
+    }
+}
+
+@media (max-width: 360px) {
+    #android h3 {
+        bottom: 80px;
+    }
+    #web p,
+    #ios p,
+    #android p {
+        top: -15px;
+        left: 70px;
+    }
+    #web h3,
+    #ios h3,
+    #android h3 {
+        margin-left: -60px;
+    }
+
+    .logo {
+        left: 90px;
+    }
+}
